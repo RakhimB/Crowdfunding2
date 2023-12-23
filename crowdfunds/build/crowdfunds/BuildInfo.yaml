@@ -1,0 +1,28 @@
+---
+compiled_package_info:
+  package_name: crowdfunds
+  address_alias_instantiation:
+    SupraOracle: 2c64e2d3eb17daa7d2652e90957c21e8664418aa41092ddd4734fb6d6c61a133
+    crowdfunds: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: DA94AC3DE00513A157D2F9BC994ECD69735E556F0A9B3A1460304B6827230E63
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+    no_lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
